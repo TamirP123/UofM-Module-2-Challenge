@@ -5,19 +5,23 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(27, 25, 25);;
+}
+
 header {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px 35px;
-    background-color: rgba(0, 0, 0, 0.511);
+    background-color: rgb(27, 25, 25);
     display: flex;
     justify-content: flex-end;
     align-items: center;
     z-index: 99;
 }
-
+/* Navigation part imported from my an old webpage I worked on a few months ago */
 .navigation a {
     position: relative;
     font-size: 1.1em;
@@ -69,8 +73,8 @@ nav a{
     transition: .3s;
 }
 
-nav button{
-    width: 112px;
+nav .button{
+    width: 122px;
     height: 40px;
     background: transparent;
     border: 2px solid #fff;
@@ -84,13 +88,13 @@ nav button{
     transition: .5s;
 }
 
-nav button:hover{
+nav .button:hover{
     transform: scale(1.1);
     cursor: pointer;
     color: rgba(0, 0, 0, 0.57);
     background: #fff;
 }
-
+/* End of my old webpage sourced code. */
 .banner {
     position: relative;
 }
@@ -135,9 +139,16 @@ padding: 35px;
     line-height: 25px;
     font-size: 20px;
 }
-
+/* Container and slider inspired/created from youtube source: https://www.youtube.com/watch?v=McPdzhLRzCg */
 .container {
-    padding: 2rem;
+    padding: 0.5rem;
+    font-size: 28px;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    color: #fff;
 }
 
 .slider-wrapper {
@@ -184,3 +195,4 @@ padding: 35px;
 .slider-nav a:hover {
     opacity: 1;
 }
+/* End of youtube sourced code. */
