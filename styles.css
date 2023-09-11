@@ -6,12 +6,12 @@
 }
 
 header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px 35px;
-    background-color: rgba(0, 0, 0, 0.689);
+    background-color: rgba(0, 0, 0, 0.511);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -89,4 +89,98 @@ nav button:hover{
     cursor: pointer;
     color: rgba(0, 0, 0, 0.57);
     background: #fff;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    height: 750px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("images/coding-background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-text {
+position: absolute;
+top: 10%;
+color: #fff;
+padding: 35px;
+}
+
+.banner-text h1 {
+    width:500px;
+    margin: 0px 525px;
+    text-align: center;
+}
+
+.banner-text h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.banner-text p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.banner-text li {
+    margin-left: 45px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.container {
+    padding: 2rem;
+}
+
+.slider-wrapper {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+}
+
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+    opacity: 1;
 }
