@@ -96,6 +96,7 @@ nav .button:hover{
     background: #fff;
 }
 /* End of my old webpage sourced code. */
+
 .banner {
     position: relative;
 }
@@ -104,7 +105,6 @@ nav .button:hover{
     height: 750px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("images/coding-background.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -141,33 +141,48 @@ padding: 35px;
     font-size: 20px;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 .container h1 {
     text-align: center;
     color: #fff;
     font-size: 35px;
+    border-radius: 5px;
 }
 
 .card img {
     margin-top: 35px;
     width: 550px;
     height: 490px;
-    margin-left: 140px;
+    margin-left: 285px;
 }
 
-.card img:first-child {
-    width: 950px;
-    height: 550px;
-    margin-left: 275px;
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card div {
+    text-align: center;
+    color: #fff;
+    margin-top: 35px;
+    font-size: 23px;
 }
 
 .card img {
     border-radius: 5px;
+}
+
+.card .image1 {
+    width: 950px;
+    height: 550px;
+    margin-left: 12px;
+}
+
+.card .image2 {
+    height: 245px;
+    margin-left: 15px;
+    margin-bottom: 158px;
 }
 
 .card img:hover {
@@ -179,10 +194,28 @@ footer {
     width: 100%;
     padding: 20px 35px;
     margin-top: 35px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
     background-color: rgba(42, 37, 37, 0.463);
-    display: flex;
-    justify-content: center;
     padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
 }
+
+footer p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+footer ul {
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+footer ul li:hover {
+    transform: scale(1.2);
+}
+
