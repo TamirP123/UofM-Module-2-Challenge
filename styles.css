@@ -22,7 +22,7 @@ header {
     align-items: center;
     z-index: 99;
 }
-/* Navigation part imported from my an old webpage I worked on a few months ago */
+/* Navigation code imported from my an old webpage I worked on a few months ago */
 .navigation a {
     position: relative;
     font-size: 1.1em;
@@ -148,7 +148,7 @@ padding: 35px;
     font-size: 35px;
     border-radius: 5px;
 }
-
+/*Project image spacing and sizing */
 .card img {
     margin-top: 35px;
     width: 550px;
@@ -172,21 +172,21 @@ padding: 35px;
 .card img {
     border-radius: 5px;
 }
-
+/*Project image spacing and sizing */
 .card .image1 {
     width: 950px;
     height: 550px;
     margin-left: 12px;
 }
-
+/*Project image spacing and sizing */
 .card .image2 {
     height: 245px;
     margin-left: 15px;
     margin-bottom: 158px;
 }
-
+/* Project images showcase glow and image zoom */
 .card img:hover {
-    box-shadow: 0 0 50px 15px #fff;
+    box-shadow: inset 0px 0px 8px #fff, 0 0 15px #fff;;
     transform: scale(1.05);
 }
 
@@ -206,7 +206,7 @@ footer p {
     font-size: 15px;
     margin-top: 20px;
 }
-
+/* Spacing for footer icons */
 footer ul {
     margin-top: 30px;
     list-style: none;
@@ -214,8 +214,13 @@ footer ul {
     justify-content: center;
     justify-content: space-evenly;
 }
-
+/* Allows the box-shadow hover to glow around circle icon */
+footer ul li {
+    border-radius: 50%;
+}
+/* Zoom and white glow hover over contact icons */
 footer ul li:hover {
     transform: scale(1.2);
+    box-shadow: inset 0px 0px 8px #fff, 0 0 15px #fff;;
 }
 
