@@ -224,3 +224,71 @@ footer ul li:hover {
     box-shadow: inset 0px 0px 8px #fff, 0 0 15px #fff;;
 }
 
+
+
+  
+  /* Media query for screens smaller than 600px */
+  
+  @media only screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .banner-text h2 {
+        font-size: 18px;
+    }
+
+    .navigation a {
+        font-size: 15px;
+    }
+    
+
+    .banner-text {
+        width: 100%;
+    }
+
+    .banner-text h1 {
+        margin-left: -45px;
+        margin-bottom: 15px;
+    }
+
+    div h3 {
+        font-size: 20px;
+    }
+
+    .card div .image2 {
+        max-width: 100%;
+        height: auto;
+        width: auto\9;
+        margin-left: -2px;
+    }
+
+    .card div .image1 {
+        max-width: 100%;
+        height: auto;
+        width: auto\9;
+        margin-left: -2px;
+    }
+
+    .card div img {
+        margin-left: 20px;
+        max-width: 50%;
+        height: auto;
+        width: auto/9;
+    }
+
+    footer h2 {
+        font-size: 20px;
+    }
+
+     ul img {
+        max-width: 50%;
+        height: auto;
+        width: auto/9;
+    }
+
+    footer ul li:hover {
+        box-shadow: none;
+    }
+  }
