@@ -225,7 +225,69 @@ footer ul li:hover {
 }
 
 
+@media only screen and (max-width: 950px) {
+    .banner-text {
+        width: 100%;
+    }
 
+    .banner-text h1 {
+        margin-left: -135px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .banner-text h2 {
+        font-size: 12px;
+    }
+
+    h2 ul li {
+        font-size: 10px;
+    }
+
+    .banner-text p {
+        font-size: 15px;
+    }
+
+    div h3 {
+        font-size: 20px;
+    }
+
+    .card div .image2 {
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        margin-left: -2px;
+    }
+
+    .card div .image1 {
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        margin-left: -2px;
+    }
+
+    .card div img {
+        margin-left: 20px;
+        max-width: 50%;
+        height: auto;
+        width: auto;
+    }
+
+    footer h2 {
+        font-size: 20px;
+    }
+
+     ul img {
+        max-width: 50%;
+        height: auto;
+        width: auto;
+    }
+
+    footer ul li:hover {
+        box-shadow: none;
+    }
+  }
+  
   
   /* Media query for screens smaller than 600px */
   
@@ -260,14 +322,14 @@ footer ul li:hover {
     .card div .image2 {
         max-width: 100%;
         height: auto;
-        width: auto\9;
+        width: auto;
         margin-left: -2px;
     }
 
     .card div .image1 {
         max-width: 100%;
         height: auto;
-        width: auto\9;
+        width: auto;
         margin-left: -2px;
     }
 
@@ -275,7 +337,7 @@ footer ul li:hover {
         margin-left: 20px;
         max-width: 50%;
         height: auto;
-        width: auto/9;
+        width: auto;
     }
 
     footer h2 {
@@ -285,10 +347,12 @@ footer ul li:hover {
      ul img {
         max-width: 50%;
         height: auto;
-        width: auto/9;
+        width: auto;
     }
 
     footer ul li:hover {
         box-shadow: none;
     }
   }
+
+  
