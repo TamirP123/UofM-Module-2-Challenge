@@ -18,11 +18,14 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ### Live website and repo
 
-https://tamirp123.github.io/UofM-Module-1-Challenge/
+https://tamirp123.github.io/UofM-Module-2-Challenge/
 
-https://github.com/TamirP123/UofM-Module-1-Challenge
+https://github.com/TamirP123/UofM-Module-2-Challenge
 
 #### Photo of app
+
+images\ProjectImage.png
+![Project Image](images\ProjectImage.png)
 
 
 

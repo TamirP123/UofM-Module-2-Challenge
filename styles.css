@@ -99,6 +99,7 @@ nav .button:hover{
 
 .banner {
     position: relative;
+    width: auto;
 }
 
 .banner img {
@@ -111,6 +112,7 @@ nav .button:hover{
 
 .banner-text {
 position: absolute;
+width: auto;
 top: 10%;
 color: #fff;
 padding: 35px;
