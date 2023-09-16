@@ -1,5 +1,5 @@
-# UofM-Module-2-Challenge
-
+# Project Information
+    In this challenge I created my own portfolio from scratch, which includes a small section about me personally, a navigation bar that operates successfully to direct users to my About Me section, previous works section, contact section, and an option to email me directly. I have also created media queries for various screens and devices to present responsive layout on different screen sizes.
 
 ## Requirements
 GIVEN I need to sample a potential employee's previous work
@@ -15,3 +15,15 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
+
+### Live website and repo
+
+https://tamirp123.github.io/UofM-Module-1-Challenge/
+
+https://github.com/TamirP123/UofM-Module-1-Challenge
+
+#### Photo of app
+
+
+
+

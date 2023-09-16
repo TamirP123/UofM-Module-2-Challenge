@@ -141,6 +141,10 @@ padding: 35px;
     font-size: 20px;
 }
 
+.photo {
+    visibility: hidden;
+}
+
 
 .container h1 {
     text-align: center;
