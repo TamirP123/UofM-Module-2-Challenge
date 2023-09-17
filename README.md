@@ -24,7 +24,6 @@ https://github.com/TamirP123/UofM-Module-2-Challenge
 
 #### Photo of app
 
-images\ProjectImage.png
 ![Project Image](images\ProjectImage.png)
 
 
